@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  dropbox:
+    restart: always
+    image: janeczku/dropbox
+    container_name: dropbox
+    volumes:
+      - "/dbox/Dropbox"
